@@ -1,0 +1,3 @@
+[submodule "qiskit-machine-learning"]
+	path = qiskit-machine-learning
+	url = https://github.com/uborso/qiskit-machine-learning.git
