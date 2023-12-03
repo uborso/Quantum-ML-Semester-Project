@@ -1,5 +1,0 @@
----
-deprecations:
-  - |
-    The functions `breast_cancer`, `digits`, `gaussian`, `iris` and `wine` in the `datasets` module are deprecated and
-    should not be used.

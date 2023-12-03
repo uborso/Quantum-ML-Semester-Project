@@ -1,5 +1,0 @@
----
-fixes:
-  - |
-    Added a dedicated handling of ``ComposedOp`` as a operator in ``OpflowQNN``. In this case
-    output shape is determined from the first operator in the ``ComposedOp`` instance.

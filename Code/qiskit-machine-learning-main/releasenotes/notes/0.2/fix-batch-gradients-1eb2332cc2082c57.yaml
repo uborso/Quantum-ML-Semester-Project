@@ -1,4 +1,0 @@
----
-fixes:
-  - |
-    Fixes the computation of gradients in TorchConnector when a batch of input samples is provided.
