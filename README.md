@@ -68,7 +68,7 @@ Please be aware that the original `.npy` files used for storing Fisher Informati
 
 ## Notebooks
 
-- [`FisherInformationEffectiveDimension.ipynb`](/Code/FisherInformationEffectiveDimension.ipynb): Here we focus on evaluating a Quantum Neural Network (QNN) model. The key steps include:
+- [`FisherInformationEffectiveDimension.ipynb`](Code/FisherInformationEffectiveDimension.ipynb): Here we focus on evaluating a Quantum Neural Network (QNN) model. The key steps include:
 
   - **Monte Carlo Sampling**: Executes `global_ed.run_monte_carlo()` to obtain the model's Jacobian matrix and outputs for various input and weight sample combinations. Note this step may require about ~20 mins on a standard laptop.
 
@@ -78,7 +78,7 @@ Please be aware that the original `.npy` files used for storing Fisher Informati
 
   - **Save and Plot Results**: The calculated metrics (Fisher information, normalized Fisher information, and effective dimensions) are saved for further analysis. The code also plots the normalized effective dimension to visualize the model's scaling with dataset size.
 
-- [`EntanglingCapability.ipynb`](/Code/EntanglingCapability.ipynb): This notebook focuses on examining the impact of entanglement on QNNs using the Meyer-Wallach measure. This measure evaluates the entangling capabilities of feature maps and variational circuits, correlating them with performance metrics like effective dimension and Fisher information spectrum. The key steps include:
+- [`EntanglingCapability.ipynb`](Code/EntanglingCapability.ipynb): This notebook focuses on examining the impact of entanglement on QNNs using the Meyer-Wallach measure. This measure evaluates the entangling capabilities of feature maps and variational circuits, correlating them with performance metrics like effective dimension and Fisher information spectrum. The key steps include:
 
   - **Monte Carlo Sampling**: Random input samples $\boldsymbol{x}_i$ and parameter samples $\boldsymbol{\theta}_i$ are generated (5000 sets) to estimate the entangling capabilities over the entire parameter space.
 
@@ -90,7 +90,7 @@ Please be aware that the original `.npy` files used for storing Fisher Informati
   - **Entanglement Measurement**: The entanglement of output states is assessed using the Meyer-Wallach measure, averaged over inputs and parameter sets. This results in entangling capability scores for feature maps ($EC_{\mathcal{F}}$) and variational circuits ($EC_{\mathcal{V}}$).
   
   
-- [`Plots.ipynb`](/Code/Plots.ipynb): This notebook is used for generating the [figures](/Figures/) included in the final thesis report. In particular it uses `matplotlib` library to plot the Effective Dimesnion and Fisher Information Spectrum for the different QNN structures analysed in this work.
+- [`Plots.ipynb`](Code/Plots.ipynb): This notebook is used for generating the [figures](Figures) included in the final thesis report. In particular it uses `matplotlib` library to plot the Effective Dimesnion and Fisher Information Spectrum for the different QNN structures analysed in this work.
 
 ## License
 This project is open-source and available under the Apache License, Version 2.0. This license allows for free use, modification, and distribution of the code, with proper attribution to the original authors and source. For more details about the Apache License, Version 2.0, please refer to [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
