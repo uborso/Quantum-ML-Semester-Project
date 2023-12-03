@@ -1,0 +1,2 @@
+## Heavy `.npy` files
+Please be aware that the original `.npy` files used for storing Fisher Information Matrix and Effective Dimension values, as well as for creating the figures presented in the thesis report, are not available on GitHub due to file size limitations. However, these files can be accessed and downloaded from the following Google Drive [folder](https://drive.google.com/drive/folders/1-9DoyHn5gZrsYov0t6MAaYFLcx3y2w9G?usp=drive_link).

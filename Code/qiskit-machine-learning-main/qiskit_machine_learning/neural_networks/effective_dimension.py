@@ -11,7 +11,7 @@
 # that they have been altered from the originals.
 """An implementation of the effective dimension algorithm."""
 
-from tqdm.contrib.telegram import tqdm
+from tqdm import tqdm
 import logging
 import time
 from typing import Union, List, Tuple
@@ -152,7 +152,7 @@ class EffectiveDimension:
 
         i = 0
         
-        for param_set in tqdm(self._weight_samples, token='6208382133:AAET1y1uyvrjt8gZPUBnXkhbOQe7PTiwzAc', chat_id='515118610'):
+        for param_set in tqdm(self._weight_samples):
             t_before_forward = time.time()
             forward_pass = np.asarray(
                 self._model.forward(input_data=self._input_samples, weights=param_set)
